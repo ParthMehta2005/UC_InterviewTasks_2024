@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-sec">
+        <div class="conversion container">
+            <div class="text">Enter City:</div>
+            <div class="conv">
+                <select name="city" id="City">City Name</select>
+                <div class="weather"></div>
+            </div>
+        </div>
+        <div class="temp-conv container">
+            <div class="text">Enter temperature to be converted from kelvin to celcius:</div>
+            <div class="conv">
+                <input type="number">
+                <div class="result"></div>
+            </div>
+            <div class="text">Enter temperature to be converted from celcius to kelvin:</div>
+            <div class="conv">
+                <input type="number">
+                <div class="result"></div>
+            </div>
+        </div>
+        <div class="search container"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
